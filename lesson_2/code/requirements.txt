@@ -1,0 +1,6 @@
+# Requirements for Lesson 2
+
+nltk
+numpy<2.0
+gensim
+# Pin numpy to a version before 2.0 to avoid build issues with gensim

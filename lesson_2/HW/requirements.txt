@@ -1,0 +1,17 @@
+# Required packages for Gemini API Exercises
+# Install with: pip install -r requirements.txt
+
+# Google Generative AI library (Gemini API)
+google-genai
+
+# Load environment variables from .env file
+python-dotenv
+
+# HTTP requests (for web page fetching - Exercise 4)
+requests
+
+# HTML parsing (for web scraping - Exercise 4)
+beautifulsoup4
+
+# Web framework (for Flask API - Exercise 10)
+flask

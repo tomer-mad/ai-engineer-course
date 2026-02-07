@@ -1,0 +1,9 @@
+# Titanic Ticket Booking System - Requirements
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+pandas>=1.3.0
+openpyxl>=3.0.0
+
+# Optional but recommended for better Excel support
+xlrd>=2.0.0
