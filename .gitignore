@@ -4,3 +4,36 @@ __pycache__/
 *.pyc
 .DS_Store
 .idea/
+*.bin
+*.exe
+*.dll
+*.obj
+*.o
+*.a
+*.lib
+*.so
+*.dylib
+*.apk
+*.ipa
+
+# Media & generated artifacts
+*.mp4
+*.mp3
+*.wav
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+
+# Documents
+*.pdf
+*.docx
+*.xlsx
+*.xls
+*.pptx
+
+# Docker image archives
+*.tar
+*.tar.gz
+*.tgz
