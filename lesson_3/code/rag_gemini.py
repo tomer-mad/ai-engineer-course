@@ -9,7 +9,7 @@ from nltk.tokenize import sent_tokenize, word_tokenize
 from sentence_transformers import SentenceTransformer #from huggingface embedding
 
 # Set your Gemini API key here
-client = genai.Client(api_key="REDACTED_GEMINI_API_KEY")
+client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 
 # Download NLTK assets
 nltk.download('punkt')

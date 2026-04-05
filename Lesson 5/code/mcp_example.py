@@ -1,9 +1,10 @@
+import os
 from google import genai
 import json
 import random
 
 # 1. Initialize client
-client = genai.Client(api_key="REDACTED_GEMINI_API_KEY")  # Replace with your Gemini API key
+client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 MODEL = "gemini-2.5-flash"
 
 # 2. Define available tools
